@@ -5,14 +5,14 @@
 
 		float a,b,h;
 
-		printf("Enter a base = ");
+		printf("Enter the base = ");
 		scanf("%f", &b);
 
-		printf("Enter a hight = ");
+		printf("Enter the hight = ");
 		scanf("%f", &h);
 
 		a = (b*h)/2;
-		printf("Area of triangle is = %f ", a);
+		printf("Area of triangle = %f ", a);
 
 		return 0;
 
