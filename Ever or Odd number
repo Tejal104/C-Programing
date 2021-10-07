@@ -25,7 +25,7 @@ return 0;
 OUTPUT:
 Enter a number : 4
 4 is a Even Number!!
---------------------------------
+-------------------------------
 Enter a number : 7
 7 is a Odd Number!!
 */
