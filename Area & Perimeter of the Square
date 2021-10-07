@@ -1,0 +1,26 @@
+/* WAP to find area & perimeter of the Square. */
+
+#include<stdio.h>
+int main()
+{
+	float side, area, perimeter;
+	
+	printf("Enter the side of the square : ");
+	scanf("%f", &side);
+	
+
+	area = side * side;                                                // Area of Square = side * side
+	printf("Area of Squre is : %f sq meter \n", area);
+	
+	perimeter = 4 * side;
+	printf("Perimeter of square is : %f units", perimeter);           // Perimeter of square = sum of all four sides
+	
+	return 0;
+}
+
+/*
+OUTPUT:
+Enter the side of the square : 6.2
+Area of Squre is : 38.439999 sq meter
+Perimeter of square is : 24.799999 units
+*/
