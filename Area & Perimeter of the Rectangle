@@ -1,0 +1,29 @@
+/* WAP to find area & perimeter of the Rectangle */
+
+#include<stdio.h>
+int main()
+{
+	float length, width, area, perimeter;
+	
+	printf("Enter the length of the rectangle : ");
+	scanf("%f", &length);
+	
+	printf("Enter the width of the rectngle : ");
+	scanf("%f", &width);
+	
+	area = length * width;                                                    // Area of rectangle = length * width
+	printf("Area of Rectangle is : %.2f meter sq \n", area);
+	
+	perimeter = 2 * (length + width);                                        // Perimeter of square = sum of all four sides
+	printf("Perimeter of Rectangle is : %.2f units ", perimeter);
+	
+	return 0;
+}
+
+/*
+OUTPUT:
+Enter the length of the rectangle : 6
+Enter the width of the rectngle : 4
+Area of Rectangle is : 24.00 meter sq
+Perimeter of Rectangle is : 20.00 units
+*/
