@@ -1,0 +1,31 @@
+/* WAP to check whether a number is even or odd */
+
+#include<stdio.h>
+int main()
+{
+int a;
+
+printf("Enter a number : ");
+scanf("%d", &a);
+
+if(a%2==0)
+{
+	printf("%d is a Even Number!!",a);
+}
+
+else
+{
+	printf("%d is a Odd Number!!",a);
+}
+
+return 0;
+}
+
+/*
+OUTPUT:
+Enter a number : 4
+4 is a Even Number!!
+--------------------------------
+Enter a number : 7
+7 is a Odd Number!!
+*/
