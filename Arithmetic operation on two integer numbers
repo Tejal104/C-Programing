@@ -19,3 +19,13 @@ printf("%d * %d = %d\n",a,b,a*b);
 printf("%d / %d = %d\n",a,b,a/b);
 return 0;
 }
+
+/*
+OUTPUT:
+Enter a first no = 12
+Enter a second no = 6
+12 + 6 = 18
+12 - 6 = 72
+12 * 6 = 72
+12 / 6 = 2
+*/
