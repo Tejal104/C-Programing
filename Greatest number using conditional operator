@@ -1,14 +1,33 @@
+/* Write a program which will accept three integer numbers from user and find out greatest among them using conditional operator. */
+
 #include<stdio.h>
 int main()
+
 {
+
 	int a,b,c,d;
 
-	printf("Enter three numbers : \n ");
-	scanf("%d %d %d", &a, &b, &c);
+	printf("Enter a first no = ");
+	scanf("%d", &a);
+
+	printf("Enter a second no = ");
+	scanf("%d", &b);
+
+	printf("Enter a third no = ");
+	scanf("%d", &c);
 
 	d = a>b ? (a>c ? a:c) : (b>c ? b:c);
 
 	printf("The greatest no is : %d", d);
 
 	return 0;
+
 }
+
+/*
+OUTPUT :
+Enter a first no = 88
+Enter a second no = 45
+Enter a third no = 55
+The greatest no is : 88
+*/
