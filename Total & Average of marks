@@ -1,0 +1,26 @@
+/* WAP to accept five subject marks and find out total and average of the marks. */
+
+#include<stdio.h>
+
+	int main()
+	{
+
+		int eng, mat, sci, his, geo, t, a;
+
+		printf("Enter the marks eng, mat, sci, his, geo respectively :");
+		scanf("%d %d %d %d %d", &eng, &mat, &sci, &his, &geo);
+
+		t = eng + mat + sci + his + geo;
+		a = t/5;
+
+		printf("Total=%d \n Average=%d", t, a);
+
+		return 0;
+	}
+
+/*
+OUTPUT:
+Enter the marks eng, mat, sci, his, geo respectively :67 45 88 95 78
+Total=373
+Average=74
+*/
