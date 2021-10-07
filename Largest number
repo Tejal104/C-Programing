@@ -1,0 +1,40 @@
+/* Accept three numbers from user and find out largest number among three and also find out whether that three numbers are equal or not.(else if ladder) */
+
+
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter three Numbers: ");
+scanf("%d %d %d",&a, &b, &c);
+if((a>b) && (a>c))
+{
+printf("Largest no is %d", a);
+}
+else if((b>a) && (b>c))
+{
+printf("Largest no is %d", b);
+}
+else if((c>a) && (c>b))
+{
+printf("Largest no is %d", c);
+}
+else
+{
+printf("Numbers are equal");
+}
+return 0;
+}
+
+/*
+OUTPUT:
+Enter three Numbers: 44
+46
+45
+Largest no is 46
+--------------------------------
+Enter three Numbers: 44
+44
+44
+Numbers are equal
+*/
