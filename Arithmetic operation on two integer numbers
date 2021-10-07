@@ -1,0 +1,21 @@
+/* WAP to demonstrate arithmetic operation on two integer numbers */
+
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+
+printf("Enter a first no = ");
+scanf("%d", &a);
+printf("Enter a second no = ");
+scanf("%d", &b);
+
+printf("%d + %d = %d\n",a,b,a+b);
+
+printf("%d - %d = %d\n",a,b,a*b);
+
+printf("%d * %d = %d\n",a,b,a*b);
+
+printf("%d / %d = %d\n",a,b,a/b);
+return 0;
+}
