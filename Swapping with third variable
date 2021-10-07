@@ -1,6 +1,9 @@
+/* Accept two numbers and perform swapping with third variable. */
+
 #include<stdio.h>
 int main()
 {
+
 	int a, b, temp;
 
 	printf("Enter value of a :");
@@ -9,13 +12,21 @@ int main()
 	printf("Enter value of b :");
 	scanf("%d", &b);
 
-	printf("Before swaping : %d %d \n ", a, b);
+	printf("Before Swaping : a=%d b=%d \n ", a, b);
 
 	temp = a;
 	a = b;
 	b = temp;
 
-	printf("After swaping : %d %d ", a, b);
+	printf("After Swaping a=%d b=%d ", a, b);
 
 	return 0;
 }
+
+/*
+OUTPUT:
+Enter value of a :30
+Enter value of b :70
+Before Swaping : a=30 b=70
+After Swaping a=70 b=30
+*/
