@@ -54,4 +54,9 @@ Enter value of a and b :  4 2
 1.Addition 2.Substraction 3.Multiplication 4.Division
 Enter your choice : 4
 4.Division of numbers 4 and 2 is 2
+------------------------------------------------------------------------------------------------
+Enter value of a and b :  4 5
+1.Addition 2.Substraction 3.Multiplication 4.Division
+Enter your choice : 5
+Your choice is incorrect.......Please check
 */
