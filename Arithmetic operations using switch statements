@@ -27,7 +27,7 @@ switch(o)
 			break;
 		
 		case 4 :
-			printf("4.Division of numbers %d and %d is %d ", a, b, a/b);
+			printf("Division of numbers %d and %d is %d ", a, b, a/b);
 			break;
 	}
 return 0;
@@ -53,7 +53,7 @@ Multiplication of numbers 4 and 5 is 20
 Enter value of a and b :  4 2
 1.Addition 2.Substraction 3.Multiplication 4.Division
 Enter your choice : 4
-4.Division of numbers 4 and 2 is 2
+Division of numbers 4 and 2 is 2
 ------------------------------------------------------------------------------------------------
 Enter value of a and b :  4 5
 1.Addition 2.Substraction 3.Multiplication 4.Division
