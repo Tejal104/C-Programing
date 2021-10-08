@@ -1,0 +1,23 @@
+/* Accept number and find out square and cube. */
+
+#include<stdio.h>
+int main()
+{
+  int n,sq,cu;
+  
+    printf("Enter the number :");
+    scanf("%d",&n);
+    sq=n*n;
+    printf("Square of number %d is %d\n",n,sq);
+    cu=n*n*n;
+    printf("Cube of number %d is %d",n,cu);
+  
+  return 0;
+}
+
+/*
+OUTPUT:
+Enter the number :4
+Square of number 4 is 16
+Cube of number 4 is 64
+*/
