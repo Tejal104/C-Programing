@@ -1,0 +1,31 @@
+/* WAP to print Fibonacci series */
+
+#include<stdio.h>
+
+int main()
+{
+int n, i;
+int t1=0, t2=1;
+int nextterm = t1 + t2;
+
+printf("Enter the no. of elements : ");
+scanf("%d", &n);
+
+printf("Fabonacci series of %d %d", t1, t2);    //printing 0 and 1 
+
+for(i=3 ; i<=n ; ++i)                           //loop starts from 2 because 0 and 1 are already printed
+{
+printf(" %d", nextterm);
+t1 = t2;
+t2 = nextterm;
+nextterm = t1 + t2;
+}
+
+return 0;
+}
+
+/*
+OUTPUT:
+Enter the no. of elements : 15
+Fabonacci series of 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+*/
