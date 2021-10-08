@@ -1,0 +1,57 @@
+/* WAP using switch case for arithmetic operation on two numbers, if user enters an operator as choice, the appropriate operation should perform.
+If user enters wrong choice appropriate message should get displayed. */
+
+#include<stdio.h>
+int main()
+{
+
+int a, b, o;
+printf("Enter value of a and b :  ");
+scanf("%d %d", &a, &b);
+printf("1.Addition 2.Substraction 3.Multiplication 4.Division\n");
+printf("Enter your choice : ");
+scanf("%d", &o);
+
+switch(o)
+	{
+		case 1 :
+			printf("Addition of numbers %d and %d is %d \n", a, b, a+b);
+			break;
+		
+		case 2 :
+			printf("Substraction of numbers %d and %d is %d \n", a, b, a-b);
+			break;
+		
+		case 3 :
+			printf("Multiplication of numbers %d and %d is %d \n", a, b, a*b);
+			break;
+		
+		case 4 :
+			printf("4.Division of numbers %d and %d is %d ", a, b, a/b);
+			break;
+	}
+return 0;
+}
+
+/*
+OUTPUT:
+Enter value of a and b :  4 5
+1.Addition 2.Substraction 3.Multiplication 4.Division
+Enter your choice : 1
+Addition of numbers 4 and 5 is 9
+------------------------------------------------------------------------------------------------
+Enter value of a and b :  4 5
+1.Addition 2.Substraction 3.Multiplication 4.Division
+Enter your choice : 2
+Substraction of numbers 4 and 5 is -1
+------------------------------------------------------------------------------------------------
+Enter value of a and b :  4 5
+1.Addition 2.Substraction 3.Multiplication 4.Division
+Enter your choice : 3
+Multiplication of numbers 4 and 5 is 20
+------------------------------------------------------------------------------------------------
+Enter value of a and b :  4 2
+1.Addition 2.Substraction 3.Multiplication 4.Division
+Enter your choice : 4
+4.Division of numbers 4 and 2 is 2
+*/
